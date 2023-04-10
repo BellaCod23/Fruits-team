@@ -5,87 +5,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Lobster&family=Open+Sans&family=Oswald:wght@400;500;700&family=Playfair+Display:ital,wght@1,400;1,500;1,800&family=Ruslan+Display&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <title>Organic Fruit & Vegetables</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=IBM+Plex+Mono:ital@1&family=Lobster&family=Open+Sans&family=Oswald:wght@400;500;700&family=Playfair+Display:ital,wght@1,400;1,500;1,800&family=Raleway:wght@300&family=Ruslan+Display&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="group">
-        <div class="nav1">About Us</div>
-        <div class="nav2">Service</div>
-        <div class="nav3">Menu</div>
-        <div class="nav4">Contact</div>
-
-
-
-        <img class="f8" src="css/images/logo.svg" alt="logo">
-
-        <img class="f9" src="css/images/Search.svg" alt="logo">
-
-        <img class="f10" src="css/images/Buy.svg" alt="logo">
-
-
-        <div class="f11">
-            <a class="btn btn-primary" href="#" role="button">Link</a>
-
-            <button type="button" class="nav_btn">Regestar Now</button>
-            </button>
+    <header class="header">
+        <div class="header-nav">
+            <ul class="header-nav__list">
+                <li class="header-nav__list-item"><a href="#">About us</a></li>
+                <li class="hheader-nav__list-item><a href=" #">Service</a></li>
+                <li class=" header-nav__list-item"><a href="#">Menu</a></li>
+                <li class="header-nav__list-item"><a href="#">Contact</a></li>
+            </ul>
         </div>
-    </div>
+
+        <div class="header-logo">
+            <a href="/" aria-label="Home">
+                <img src="css/images/logo.svg" alt="logo" /></a>
+        </div>
+
+        <div class="utility-nav">
+            <div class="utility-nav__search-bar">
+                <a class="utility-nav__search-bar__button" href="#">
+                    <img src="css/images/Search.svg" />
+                </a>
+            </div>
+
+            <div class="utility-nav__basket">
+                <a class="utility-nav__basket__button" href="#">
+                    <img src="css/images/Buy.svg" />
+                </a>
+            </div>
 
 
-    <div class="f5">
-        <img src="css/images/melientha.jpg" alt="melientha">
-    </div>
-
-    <div class="f4">
-        <p>Organic Fruit & Vegetables</p>
-    </div>
-    <div class="f4-1">
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum
-            has
-            been
-            the industry's standard dummy text ever since the<br>1500s, when an unknown printer took a
-            galley...
-        </p>
-    </div>
-
-
-    <div class="f6">
-        <h3>Explor Now</h3>
-    </div>
-
-    <img class="f7" src="css/images/strelka.png" alt="strelka">
-
-
-
-    <img class="vegetables" src="css/images/vegetables.png" alt="vegetables">
+            <div class="utility-nav__reg-button">
+                <a href="#">Register now</a>
+            </div>
+        </div>
+    </header>
 
 
 
+    <main class="main">
+        <div class="main__container">
+            <div class="container">
+                <div class="main__container-head-img">
+                    <img class="main-image" src="css/images/melientha.jpg" />
+                    <div class="main__header">
+                        <div>
+                            <h1 class="main__header__item">Organic Fruit & Vegetables</h1>
+                            <div class="main__header__p-container">
+                                <p class="main__header__paragraph">
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-    <img class="f1-1" src="css/images/people.png" alt="service-1">
-    <h2 class="f1-2">30K</h2>
-    <p class="f1-3">User Order </p>
+
+                    <div class="main__order">
+                        <div class="main__order-items">
+                            <p class="main__order-p">Order Now</p>
+                            <button type="button" class="main__order-button">
+                                <img src="css/images/strelka.png" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__statistic">
+                    <div class="main__statistic__images">
+                        <img src="css/images/vegetables.png" alt="fruits" />
+                    </div>
+
+                    <div class="main__statistic__items">
+                        <div class="main__statistic__item">
+                            <img class="user-order__img" src="css/images/people.png" />
+                            <div class="main__statistic__items__number">
+                                <h2>30K</h2>
+                                <p>User Order</p>
+                            </div>
+                        </div>
 
 
+                        <div class="main__statistic__item">
+                            <img class="user-order__img" src="css/images/star.png" />
+                            <div class="main__statistic__items__number">
+                                <h2>20K</h2>
+                                <p>Reviews(4.8)</p>
+                            </div>
+                        </div>
 
-    <img class="f2-1" src="css/images/star.png" alt="service-2">
-    <h2 class="f2-2">20K</h2>
-    <p class="f2-3">Reviews(4.8)</p>
 
-
-    <div class="f3">
-        <img class="f3-1" src="css/images/fruits.png" alt="service-3">
-        <h2 class="f3-2">300</h2>
-        <p class="f3-3">Items</p>
-    </div>
-
+                        <div class="main__statistic__item">
+                            <img class="user-order__img" src="css/images/fruits.png" />
+                            <div class="main__statistic__items__number">
+                                <h2>300</h2>
+                                <p>Items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </main>
 
 </body>
 
